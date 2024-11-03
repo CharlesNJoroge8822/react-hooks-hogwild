@@ -1,4 +1,4 @@
-const hogs = [
+const hogsData = [
   {
     name: "Babe",
     specialty: "Being incredibly cute",
@@ -17,6 +17,7 @@ const hogs = [
     image:
       "https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-hogwild/master/public/images/porkchop.jpg",
   },
+  
   {
     name: "Cherub",
     specialty: "Flying",
@@ -100,4 +101,4 @@ const hogs = [
   },
 ];
 
-export default hogs;
+export default hogsData;

@@ -1,0 +1,22 @@
+/*
+1. Create two component files: Hogtile, to dispaly name and image of a swain
+                               Hogdetails, to display the entire swain details on clicking an image
+2. Other additionals           Allow the user to filter the hogs that are greased
+                               Allow the user to sort the hogs based on name or weight
+                               Allow users to hide hogs (not delete them, just hide them from view!)
+                               Add a form to allow users to add new hogs to the page
+*/
+
+1. HogTile: Render the names and image of each hog here
+            Also add the click state of each image
+
+2. HogDetails: Render the entire data of each hog here  
+            render this deatils to the click state of iamge    
+
+3. HogList:     Render a list of HogTile components  
+
+4. App.js:  Import data from all the child components
+            Manage filter and state        
+
+
+5. State management: use useState to manage the current order of everything.
